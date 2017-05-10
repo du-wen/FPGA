@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="multi">
+		<CBX_INST_ENTRY INSTANCE_NAME="|multi|multi_16_16_l1:multi_16_16_l1_inst|lpm_mult:lpm_mult_component" CBX_FILE_NAME="mult_d6p.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

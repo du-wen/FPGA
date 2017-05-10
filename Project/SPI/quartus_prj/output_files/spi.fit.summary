@@ -1,0 +1,16 @@
+Fitter Status : Successful - Tue May 09 15:54:06 2017
+Quartus II 64-Bit Version : 13.1.0 Build 162 10/23/2013 SJ Full Version
+Revision Name : spi
+Top-level Entity Name : spi_ctrl
+Family : Cyclone IV E
+Device : EP4CE6E22A7
+Timing Models : Final
+Total logic elements : 62 / 6,272 ( < 1 % )
+    Total combinational functions : 61 / 6,272 ( < 1 % )
+    Dedicated logic registers : 46 / 6,272 ( < 1 % )
+Total registers : 46
+Total pins : 8 / 92 ( 9 % )
+Total virtual pins : 0
+Total memory bits : 512 / 276,480 ( < 1 % )
+Embedded Multiplier 9-bit elements : 0 / 30 ( 0 % )
+Total PLLs : 0 / 2 ( 0 % )

@@ -1,0 +1,57 @@
+m255
+K4
+z2
+13
+cModel Technology
+dE:\Verilog\Project\FIFO\sim
+!i10d 8192
+!i10e 25
+!i10f 100
+T_opt
+!s110 1493779137
+V`Z[WS6X>T[bF[idDjJ0Da2
+04 6 4 work tb_RAM fast 0
+=1-c81f6634c279-590942c1-66-19bc
+o-quiet -auto_acc_if_foreign -work work +acc
+n@_opt
+OL;O;10.2;57
+vRAM
+Z0 !s110 1493779136
+IC=>A:A2zQoY5YK]]]BLJ92
+Z1 V`JN@9S9cnhjKRR_L]QIcM3
+Z2 dE:\Verilog\Project\RAM\sim
+w1493776113
+8./../design/RAM.v
+F./../design/RAM.v
+L0 1
+Z3 OL;L;10.2;57
+r1
+31
+Z4 o-L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+n@r@a@m
+!s100 ``6BWG7`JeY0WdbZOFW[Y0
+!s90 -reportprogress|300|./../design/RAM.v|
+!i10b 1
+!s85 0
+!s108 1493779136.842000
+!s107 ./../design/RAM.v|
+vtb_RAM
+I61VMm0VL4SDL<`QEBM>;i0
+R1
+R2
+w1493779121
+8./tb_RAM.v
+F./tb_RAM.v
+L0 3
+R3
+r1
+31
+R4
+ntb_@r@a@m
+Z5 !s110 1493779136
+!s90 -reportprogress|300|./tb_RAM.v|
+!s100 073c6FX<727@j5fTEflPJ2
+!s108 1493779136.806000
+!s107 ./tb_RAM.v|
+!i10b 1
+!s85 0

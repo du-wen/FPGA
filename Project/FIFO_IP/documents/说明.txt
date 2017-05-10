@@ -1,0 +1,1 @@
+这是调用altera的fifo的ip核的情况

@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Thu May 04 13:44:43 2017
+Quartus II 64-Bit Version : 13.1.0 Build 162 10/23/2013 SJ Full Version
+Revision Name : dp_ram
+Top-level Entity Name : fifo
+Family : Cyclone IV E
+Total logic elements : 221
+    Total combinational functions : 77
+    Dedicated logic registers : 168
+Total registers : 168
+Total pins : 23
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

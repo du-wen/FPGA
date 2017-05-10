@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="fifi_ip">
+		<CBX_INST_ENTRY INSTANCE_NAME="|fifo|fifo_256_8:fifo_256_8_inst|dcfifo:dcfifo_component" CBX_FILE_NAME="dcfifo_iif1.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

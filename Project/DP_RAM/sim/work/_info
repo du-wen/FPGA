@@ -1,0 +1,132 @@
+m255
+K4
+z2
+13
+cModel Technology
+Z0 dF:\modeltech64_10.2\examples
+!i10d 8192
+!i10e 25
+!i10f 100
+T_opt
+Z1 !s110 1493988331
+Z2 VhMM9cMYWEdhzBg3_B?n<22
+Z3 04 7 4 work tb_fifo fast 0
+Z4 =1-c81f6634c279-590c73eb-1d9-73a4
+Z5 o-quiet -auto_acc_if_foreign -work work +acc
+Z6 n@_opt
+Z7 OL;O;10.2;57
+Z8 dF:\modeltech64_10.2\examples
+vdp_ram
+Z9 !s110 1493994374
+!i10b 1
+Z10 !s100 ;VD@iHVE;2od1_517_ee:1
+Z11 IGDaWZ7WE[:]lXVDEhFcJc0
+Z12 V`JN@9S9cnhjKRR_L]QIcM3
+Z13 dE:\Verilog\Project\DP_RAM\sim
+Z14 w1493819251
+Z15 8./../design/dp_ram.v
+Z16 F./../design/dp_ram.v
+L0 1
+Z17 OL;L;10.2;57
+r1
+!s85 0
+31
+Z18 !s108 1493994374.488000
+Z19 !s107 ./../design/w_ctrl.v|./../design/r_ctrl.v|./../design/fifomem.v|./../design/fifo.v|./../design/dp_ram.v|
+Z20 !s90 -reportprogress|300|./../design/dp_ram.v|./../design/fifo.v|./../design/fifomem.v|./../design/r_ctrl.v|./../design/w_ctrl.v|
+Z21 o-L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+vfifo
+R9
+!i10b 1
+Z22 !s100 2U:PT=X8O7ijZlPA]8V4C0
+Z23 IjOId`PcdXInJD?7KzTk`[0
+R12
+R13
+Z24 w1493811396
+Z25 8./../design/fifo.v
+Z26 F./../design/fifo.v
+L0 1
+R17
+r1
+!s85 0
+31
+R18
+R19
+R20
+R21
+vfifomen
+R9
+!i10b 1
+Z27 !s100 ]AeMUWBMI][l[GIOUGcg50
+Z28 IHVVWSTWmRlVGlH`]bUYbQ3
+R12
+R13
+Z29 w1493814647
+Z30 8./../design/fifomem.v
+Z31 F./../design/fifomem.v
+L0 1
+R17
+r1
+!s85 0
+31
+R18
+R19
+R20
+R21
+vr_ctrl
+R9
+!i10b 1
+Z32 !s100 6TNZ7o7o^i?Ud:f77jl[<3
+Z33 IFB82@LO]`DIoHIR7C5kL?2
+R12
+R13
+Z34 w1493984183
+Z35 8./../design/r_ctrl.v
+Z36 F./../design/r_ctrl.v
+L0 1
+R17
+r1
+!s85 0
+31
+R18
+R19
+R20
+R21
+vtb_fifo
+Z37 !s100 L97dggajcHOl27oKPiJAG2
+Z38 IC]623CG41K9Sc<68CKOAk3
+R12
+R13
+Z39 w1493954431
+Z40 8./tb_fifo.v
+Z41 F./tb_fifo.v
+L0 3
+R17
+r1
+31
+Z42 !s90 -reportprogress|300|./tb_fifo.v|
+R21
+R9
+!i10b 1
+!s85 0
+Z43 !s108 1493994374.451000
+Z44 !s107 ./tb_fifo.v|
+vw_ctrl
+R9
+!i10b 1
+Z45 !s100 75om<J^GFkFo52KDd^1VC2
+Z46 IgS=;T8]QL>fl5D<ihLL=]3
+R12
+R13
+Z47 w1493984196
+Z48 8./../design/w_ctrl.v
+Z49 F./../design/w_ctrl.v
+L0 1
+R17
+r1
+!s85 0
+31
+R18
+R19
+R20
+R21

@@ -1,0 +1,194 @@
+# Reading F:/modeltech64_10.2/tcl/vsim/pref.tcl 
+# //  ModelSim SE-64 10.2 Feb  2 2013 
+# //
+# //  Copyright 1991-2013 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# OpenFile E:/Verilog/Project/fifo_b/sim/fifo_b.mpf 
+# Loading project fifo_b
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim SE-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+# -- Compiling module tb_fifo
+# ** Error: ./tb_fifo.v(27): (vlog-2163) Macro `reg is undefined.
+# 
+# ** Error: ./tb_fifo.v(27): near "[": syntax error, unexpected '['
+# ** Error: ./tb_fifo.v(31): (vlog-2730) Undefined variable: 'counter_check'.
+# 
+# ** Error: ./tb_fifo.v(39): (vlog-2163) Macro `assign is undefined.
+# 
+# ** Error: ./tb_fifo.v(39): near "=": syntax error, unexpected '=', expecting IDENTIFIER or TYPE_IDENTIFIER
+# ** Error: F:/modeltech64_10.2/win64/vlog failed.
+# Error in macro ./run.do line 6
+# F:/modeltech64_10.2/win64/vlog failed.
+#     while executing
+# "vlog        ./tb_fifo.v"
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim SE-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+# -- Compiling module tb_fifo
+# ** Error: ./tb_fifo.v(39): Register is illegal in left-hand side of continuous assignment
+# ** Error: F:/modeltech64_10.2/win64/vlog failed.
+# Error in macro ./run.do line 6
+# F:/modeltech64_10.2/win64/vlog failed.
+#     while executing
+# "vlog        ./tb_fifo.v"
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim SE-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+# -- Compiling module tb_fifo
+# 
+# Top level modules:
+# 	tb_fifo
+# Model Technology ModelSim SE-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+# -- Compiling module dp_ram
+# -- Compiling module fifo
+# -- Compiling module fifomen
+# -- Compiling module r_ctrl
+# -- Compiling module w_ctrl
+# 
+# Top level modules:
+# 	fifo
+# vsim -voptargs=+acc work.tb_fifo 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# 
+# Loading work.tb_fifo(fast)
+# Loading work.fifo(fast)
+# Loading work.w_ctrl(fast)
+# Loading work.fifomen(fast)
+# Loading work.dp_ram(fast)
+# Loading work.r_ctrl(fast)
+# ** Warning: (vsim-3015) ./../design/fifomem.v(24): [PCDPC] - Port size (4 or 4) does not match connection size (3) for port 'w_addr'. The port definition is at: ./../design/dp_ram.v(7).
+# 
+#         Region: /tb_fifo/fifo_inst/fifomen_inst/dp_ram_inst
+# ** Warning: (vsim-3015) ./../design/fifomem.v(24): [PCDPC] - Port size (4 or 4) does not match connection size (3) for port 'r_addr'. The port definition is at: ./../design/dp_ram.v(8).
+# 
+#         Region: /tb_fifo/fifo_inst/fifomen_inst/dp_ram_inst
+add wave sim:/tb_fifo/*
+restart -f
+# Loading work.tb_fifo(fast)
+# Loading work.fifo(fast)
+# Loading work.w_ctrl(fast)
+# Loading work.fifomen(fast)
+# Loading work.dp_ram(fast)
+# Loading work.r_ctrl(fast)
+# ** Warning: (vsim-3015) ./../design/fifomem.v(24): [PCDPC] - Port size (4 or 4) does not match connection size (3) for port 'w_addr'. The port definition is at: ./../design/dp_ram.v(7).
+# 
+#         Region: /tb_fifo/fifo_inst/fifomen_inst/dp_ram_inst
+# ** Warning: (vsim-3015) ./../design/fifomem.v(24): [PCDPC] - Port size (4 or 4) does not match connection size (3) for port 'r_addr'. The port definition is at: ./../design/dp_ram.v(8).
+# 
+#         Region: /tb_fifo/fifo_inst/fifomen_inst/dp_ram_inst
+run
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim SE-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+# -- Compiling module tb_fifo
+# 
+# Top level modules:
+# 	tb_fifo
+# Model Technology ModelSim SE-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+# -- Compiling module dp_ram
+# -- Compiling module fifo
+# -- Compiling module fifomen
+# -- Compiling module r_ctrl
+# -- Compiling module w_ctrl
+# 
+# Top level modules:
+# 	fifo
+# vsim -voptargs=+acc work.tb_fifo 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# 
+# Loading work.tb_fifo(fast)
+# Loading work.fifo(fast)
+# Loading work.w_ctrl(fast)
+# Loading work.fifomen(fast)
+# Loading work.dp_ram(fast)
+# Loading work.r_ctrl(fast)
+# ** Warning: (vsim-3015) ./../design/fifomem.v(24): [PCDPC] - Port size (4 or 4) does not match connection size (3) for port 'w_addr'. The port definition is at: ./../design/dp_ram.v(7).
+# 
+#         Region: /tb_fifo/fifo_inst/fifomen_inst/dp_ram_inst
+# ** Warning: (vsim-3015) ./../design/fifomem.v(24): [PCDPC] - Port size (4 or 4) does not match connection size (3) for port 'r_addr'. The port definition is at: ./../design/dp_ram.v(8).
+# 
+#         Region: /tb_fifo/fifo_inst/fifomen_inst/dp_ram_inst
+# Causality operation skipped due to absence of debug database file
+# A time value could not be extracted from the current line
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim SE-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+# -- Compiling module tb_fifo
+# 
+# Top level modules:
+# 	tb_fifo
+# Model Technology ModelSim SE-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+# -- Compiling module dp_ram
+# -- Compiling module fifo
+# -- Compiling module fifomen
+# -- Compiling module r_ctrl
+# -- Compiling module w_ctrl
+# 
+# Top level modules:
+# 	fifo
+# vsim -voptargs=+acc work.tb_fifo 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# 
+# Loading work.tb_fifo(fast)
+# Loading work.fifo(fast)
+# Loading work.w_ctrl(fast)
+# Loading work.fifomen(fast)
+# Loading work.dp_ram(fast)
+# Loading work.r_ctrl(fast)
+add wave sim:/tb_fifo/*
+restart -f
+# Loading work.tb_fifo(fast)
+# Loading work.fifo(fast)
+# Loading work.w_ctrl(fast)
+# Loading work.fifomen(fast)
+# Loading work.dp_ram(fast)
+# Loading work.r_ctrl(fast)
+run
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim SE-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+# -- Compiling module tb_fifo
+# 
+# Top level modules:
+# 	tb_fifo
+# Model Technology ModelSim SE-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+# -- Compiling module dp_ram
+# -- Compiling module fifo
+# -- Compiling module fifomen
+# -- Compiling module r_ctrl
+# -- Compiling module w_ctrl
+# 
+# Top level modules:
+# 	fifo
+# vsim -voptargs=+acc work.tb_fifo 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# 
+# Loading work.tb_fifo(fast)
+# Loading work.fifo(fast)
+# Loading work.w_ctrl(fast)
+# Loading work.fifomen(fast)
+# Loading work.dp_ram(fast)
+# Loading work.r_ctrl(fast)
+add wave sim:/tb_fifo/*
+add wave sim:/tb_fifo/*
+# Break key hit 
+restart -f
+# Loading work.tb_fifo(fast)
+# Loading work.fifo(fast)
+# Loading work.w_ctrl(fast)
+# Loading work.fifomen(fast)
+# Loading work.dp_ram(fast)
+# Loading work.r_ctrl(fast)
+run

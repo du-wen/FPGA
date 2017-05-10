@@ -1,0 +1,6 @@
+set tool_name "ModelSim (Verilog)"
+set corner_file_list {
+	{{"Slow -9L 1.0V 85 Model"} {dp_ram_9l_1000mv_85c_slow.vo dp_ram_9l_1000mv_85c_v_slow.sdo}}
+	{{"Slow -9L 1.0V 0 Model"} {dp_ram_9l_1000mv_0c_slow.vo dp_ram_9l_1000mv_0c_v_slow.sdo}}
+	{{"Fast -M 1.0V 0 Model"} {dp_ram_min_1000mv_0c_fast.vo dp_ram_min_1000mv_0c_v_fast.sdo}}
+}

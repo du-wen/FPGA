@@ -1,0 +1,131 @@
+m255
+K4
+z2
+13
+cModel Technology
+dE:\Verilog\Project\FIFO\sim
+!i10d 8192
+!i10e 25
+!i10f 100
+T_opt
+Z0 !s110 1493995554
+V<lN<7KZ=eo`l`nk:B9LoY2
+04 7 4 work tb_fifo fast 0
+=1-c81f6634c279-590c9022-20c-7200
+o-quiet -auto_acc_if_foreign -work work +acc
+n@_opt
+OL;O;10.2;57
+vdp_ram
+Z1 !s110 1493995554
+Ij=G08K=;`]<fAh<aU[3de3
+Z2 V`JN@9S9cnhjKRR_L]QIcM3
+Z3 dE:\Verilog\Project\fifo_b\sim
+w1493995323
+8./../design/dp_ram.v
+F./../design/dp_ram.v
+L0 1
+Z4 OL;L;10.2;57
+r1
+31
+Z5 !s108 1493995554.284000
+Z6 !s107 ./../design/w_ctrl.v|./../design/r_ctrl.v|./../design/fifomem.v|./../design/fifo.v|./../design/dp_ram.v|
+Z7 !s90 -reportprogress|300|./../design/dp_ram.v|./../design/fifo.v|./../design/fifomem.v|./../design/r_ctrl.v|./../design/w_ctrl.v|
+Z8 o-L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+!s100 kQ]0AR]Ca;:@Q1RdMA3jI2
+!i10b 1
+!s85 0
+vfifo
+R1
+IhaP4b<R2LNI67`@<YX>470
+R2
+R3
+w1493988267
+8./../design/fifo.v
+F./../design/fifo.v
+L0 1
+R4
+r1
+31
+R5
+R6
+R7
+R8
+!s100 a^QWkM40?I:2bEU72le5G3
+!i10b 1
+!s85 0
+vfifomen
+R1
+INnYMYjDQQA01H9=XLYJ:R2
+R2
+R3
+w1493988433
+8./../design/fifomem.v
+F./../design/fifomem.v
+L0 1
+R4
+r1
+31
+R5
+R6
+R7
+R8
+!s100 h8]SgS=Wa7h7_^P>`BjA[1
+!i10b 1
+!s85 0
+vr_ctrl
+R1
+IDko;zfn_Lg>Z`7=?>Q8710
+R2
+R3
+w1493992466
+8./../design/r_ctrl.v
+F./../design/r_ctrl.v
+L0 1
+R4
+r1
+31
+R5
+R6
+R7
+R8
+!s100 Aj@4B=Rb9QTzjG]7=FS@_2
+!i10b 1
+!s85 0
+vtb_fifo
+Id6KgCOlHV4Q_OZ`11CDi23
+R2
+R3
+w1493995544
+8./tb_fifo.v
+F./tb_fifo.v
+L0 3
+R4
+r1
+31
+R8
+R1
+!s90 -reportprogress|300|./tb_fifo.v|
+!s100 6lGjZK_l<>klKO<KM7Ono0
+!s108 1493995554.245000
+!s107 ./tb_fifo.v|
+!i10b 1
+!s85 0
+vw_ctrl
+R1
+II=mRX^KJgOaZFO@;V=7lS2
+R2
+R3
+w1493992447
+8./../design/w_ctrl.v
+F./../design/w_ctrl.v
+L0 1
+R4
+r1
+31
+R5
+R6
+R7
+R8
+!s100 RnPhLR<;Vo::oZC^F0@;`3
+!i10b 1
+!s85 0

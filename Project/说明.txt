@@ -1,0 +1,8 @@
+1.DP_RAM是利用verilog课程中的要求，用D触发器写一个8*8的双口ram，然后实现fifo。
+2.FIFO是腾讯课堂尤恺元老师讲课的fifo工程，格雷码实现的fifo
+3.fifo_b是自己写的二进制地址同步的fifo，地址多定义一位，在写的时候，写满信号是写地址最高位取反，其余位不变，与打两拍的读地址比较
+4.FIFO_IP是调用altera的fifo的ip核的情况
+5.MULTI是乘法器和除法器的IP调用实例（documents里面有个spec.txt，讲述了浮点数定点化原理以及乘法实现过程）
+6.Parall_Interface是异步并口通讯，testbench中有教我们如何写数据回收。
+7.RAM是我自己用D触发器写的一个双口RAM。
+8.SPI讲的是如何用FPGA实现将RAM中初始化的寄存器数据通过SPI通信协议，写入DAC3283中。

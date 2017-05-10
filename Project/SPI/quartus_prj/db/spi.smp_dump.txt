@@ -1,0 +1,8 @@
+
+State Machine - |spi_ctrl|state
+Name state.STOP state.W_REG state.R_MEM state.WAIT state.IDLE 
+state.IDLE 0 0 0 0 0 
+state.WAIT 0 0 0 1 1 
+state.R_MEM 0 0 1 0 1 
+state.W_REG 0 1 0 0 1 
+state.STOP 1 0 0 0 1 

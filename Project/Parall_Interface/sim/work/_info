@@ -1,0 +1,55 @@
+m255
+K4
+z2
+13
+cModel Technology
+dF:\modeltech64_10.2\examples
+!i10d 8192
+!i10e 25
+!i10f 100
+T_opt
+Z0 !s110 1494384535
+V7kH]ig^ejh:_l7Pjbe9bd0
+04 16 4 work tb_parall_interf fast 0
+=1-c81f6634c279-59127f97-16f-ebc4
+o-quiet -auto_acc_if_foreign -work work +acc
+n@_opt
+OL;O;10.2;57
+vparall_interf
+Z1 !s110 1494384535
+IaLB7ADbcX<EhbM1j:NAIO2
+Z2 V`JN@9S9cnhjKRR_L]QIcM3
+Z3 dE:\Verilog\Project\Parall_Interface\sim
+w1494384203
+8./../design/parall_interf.v
+F./../design/parall_interf.v
+L0 1
+Z4 OL;L;10.2;57
+r1
+31
+Z5 o-L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+!i10b 1
+!s100 DP9>TH?A=XbgM@gC3o1`o0
+!s85 0
+!s108 1494384535.189000
+!s107 ./../design/parall_interf.v|
+!s90 -reportprogress|300|./../design/parall_interf.v|
+vtb_parall_interf
+Ij1N<OCQhDEklbZM68Z`;63
+R2
+R3
+w1494383829
+8./tb_parall_interf.v
+F./tb_parall_interf.v
+L0 2
+R4
+r1
+31
+R5
+R1
+!s100 3aOfKOT?IISbO@1TeaL__1
+!s108 1494384535.148000
+!s107 ./tb_parall_interf.v|
+!s90 -reportprogress|300|./tb_parall_interf.v|
+!i10b 1
+!s85 0
